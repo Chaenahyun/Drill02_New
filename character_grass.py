@@ -11,7 +11,8 @@ delay(1)
 
 def run_circle():
     print('CIRCLE')
-    
+
+    cx, cy, r = 400, 300, 200
     for deg in range(0, 360, 5):
         x = r*math.cos(math.radians(deg))
         y = r*math.sin(math.radians(deg))
